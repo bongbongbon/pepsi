@@ -108,7 +108,7 @@ hr{
 }
 
 /* mdeia query */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 390px){
     .menu{
         margin: 30px 0 20px 0;
     }
