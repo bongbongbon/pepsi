@@ -67,6 +67,14 @@
     margin: 20px 0;
     text-align: center;
 }   
+.clip a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
 .social_media{
     text-align: center;
     margin: 30px 0;
@@ -107,7 +115,7 @@ hr{
     font-size: 11px;
 }
 
-/* mdeia query */
+/* mdeia query : mobile style*/
 @media screen and (max-width: 390px){
     .menu{
         margin: 30px 0 20px 0;
@@ -125,8 +133,22 @@ hr{
         max-width: 300px; /* 최대-넓이 : 300px, 300px 미만 폭에서는 100% 크기 */
         flex-direction: column; /* 플렉스-방향: 컬럼(=열, 수직) */
     }
+    .clip{
+        min-height: 300px;
+        border: 1px solid gray;
+    }
     .clip:nth-child(2) {
         margin-left: 0;
+    }
+    .clip a{
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .clip a:hover {
+        font-size: 14px;
+        background-color: #005891;
     }
     hr{
         margin: 30px 0 0 0;
